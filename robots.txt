@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://yourusername.github.io/restaurant-website/sitemap.xml
+Sitemap: https://animvaultcont-tech.github.io/La-Brasa/sitemap.xml
 
 # Crawl delay (optional, be polite to crawlers)
 Crawl-delay: 10
