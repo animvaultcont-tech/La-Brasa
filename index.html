@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="La Brasa — A modern restaurant & café where bold flavors meet refined atmosphere. Reserve your table today." />
+  <meta name="keywords" content="restaurant, café, fine dining, food, menu, reservation, La Brasa" />
+  <meta name="author" content="La Brasa Restaurant" />
+  <meta property="og:title" content="La Brasa — Restaurant & Café" />
+  <meta property="og:description" content="Bold flavors. Refined atmosphere. Unforgettable evenings." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://labrasa.com" />
+  <title>La Brasa — Restaurant & Café</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== PRELOADER ========== -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <span class="preloader-logo">LB</span>
+      <div class="preloader-bar"><div class="preloader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ========== CURSOR ========== -->
+  <div id="cursor"></div>
+  <div id="cursor-follower"></div>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">La Brasa</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#reservation" class="nav-cta">Reserve a Table</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== MOBILE MENU ========== -->
+  <div id="mobile-menu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#menu" class="mobile-link">Menu</a></li>
+      <li><a href="#gallery" class="mobile-link">Gallery</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+      <li><a href="#reservation" class="mobile-link reserve">Reserve a Table</a></li>
+    </ul>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="hero-grain"></div>
+    </div>
+    <div class="hero-content">
+      <span class="hero-tag reveal">Est. 2018 · Fine Dining</span>
+      <h1 class="hero-title reveal">
+        <span>Bold</span>
+        <em>flavors.</em>
+        <span>Refined</span>
+        <em>moments.</em>
+      </h1>
+      <p class="hero-sub reveal">A modern restaurant & café where every dish tells a story of passion, season, and craft.</p>
+      <div class="hero-actions reveal">
+        <a href="#menu" class="btn-primary">Explore Menu</a>
+        <a href="#reservation" class="btn-ghost">Book a Table →</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat reveal"><strong>12+</strong><span>Years of Craft</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat reveal"><strong>200+</strong><span>Dishes Crafted</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat reveal"><strong>4.9★</strong><span>Guest Rating</span></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-wrap">
+          <div class="about-img about-img-1">
+            <div class="img-placeholder img-1"></div>
+          </div>
+          <div class="about-img about-img-2">
+            <div class="img-placeholder img-2"></div>
+          </div>
+          <div class="about-badge">
+            <strong>Since</strong>
+            <span>2018</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <span class="section-tag reveal">Our Story</span>
+          <h2 class="section-title reveal">Where passion<br><em>meets the plate</em></h2>
+          <p class="about-desc reveal">La Brasa was born from a simple belief — that great food is more than sustenance, it is a ritual. We source the finest seasonal ingredients, work with local farmers, and transform them into dishes that stay with you long after the last bite.</p>
+          <p class="about-desc reveal">Our kitchen is led by Chef Marco Reyes, a culinary artist whose philosophy balances bold technique with deep respect for raw ingredients.</p>
+          <div class="about-features reveal">
+            <div class="feature">
+              <div class="feature-icon">🌿</div>
+              <div>
+                <strong>Farm to Table</strong>
+                <p>Fresh, local, seasonal</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">🔥</div>
+              <div>
+                <strong>Wood-Fired</strong>
+                <p>Authentic flame technique</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">🍷</div>
+              <div>
+                <strong>Curated Wines</strong>
+                <p>80+ labels from 12 regions</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">☕</div>
+              <div>
+                <strong>Specialty Coffee</strong>
+                <p>Single-origin brews daily</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MENU ========== -->
+  <section id="menu" class="menu section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag reveal">Our Menu</span>
+        <h2 class="section-title reveal">Crafted for every<br><em>season & craving</em></h2>
+      </div>
+      <div class="menu-tabs reveal">
+        <button class="tab-btn active" data-tab="starters">Starters</button>
+        <button class="tab-btn" data-tab="mains">Main Course</button>
+        <button class="tab-btn" data-tab="desserts">Desserts</button>
+        <button class="tab-btn" data-tab="drinks">Drinks</button>
+      </div>
+
+      <!-- Starters -->
+      <div class="tab-content active" id="tab-starters">
+        <div class="menu-grid">
+          <div class="menu-card reveal">
+            <div class="menu-card-img starter-1"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Burrata & Heirloom</h3>
+                <span class="price">$18</span>
+              </div>
+              <p>Creamy burrata, heirloom tomatoes, aged balsamic, fresh basil oil, sea salt</p>
+              <span class="tag">🌿 Vegetarian</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-card-img starter-2"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Seared Scallops</h3>
+                <span class="price">$24</span>
+              </div>
+              <p>Pan-seared scallops, cauliflower purée, crispy capers, lemon butter sauce</p>
+              <span class="tag">⭐ Chef's Pick</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-card-img starter-3"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Wild Mushroom Toast</h3>
+                <span class="price">$16</span>
+              </div>
+              <p>Sourdough, sautéed wild mushrooms, truffle oil, poached egg, microgreens</p>
+              <span class="tag">🌿 Vegetarian</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-card-img starter-4"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Tuna Tartare</h3>
+                <span class="price">$22</span>
+              </div>
+              <p>Yellowfin tuna, avocado, sesame, citrus ponzu, wonton crisps</p>
+              <span class="tag">🔥 Popular</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mains -->
+      <div class="tab-content" id="tab-mains">
+        <div class="menu-grid">
+          <div class="menu-card reveal">
+            <div class="menu-card-img main-1"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Wood-Fired Ribeye</h3>
+                <span class="price">$54</span>
+              </div>
+              <p>12oz prime ribeye, chimichurri, roasted garlic mash, charred broccolini</p>
+              <span class="tag">⭐ Signature</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-card-img main-2"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Roasted Sea Bass</h3>
+                <span class="price">$42</span>
+              </div>
+              <p>Whole sea bass, fennel, cherry tomatoes, olives, white wine & herb broth</p>
+              <span class="tag">🔥 Popular</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-card-img main-3"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Truffle Risotto</h3>
+                <span class="price">$36</span>
+              </div>
+              <p>Arborio rice, black truffle, parmesan, wild mushrooms, crispy sage</p>
+              <span class="tag">🌿 Vegetarian</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-card-img main-4"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Braised Duck Leg</h3>
+                <span class="price">$46</span>
+              </div>
+              <p>Slow-braised duck, cherry reduction, polenta, roasted root vegetables</p>
+              <span class="tag">⭐ Chef's Pick</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desserts -->
+      <div class="tab-content" id="tab-desserts">
+        <div class="menu-grid">
+          <div class="menu-card reveal">
+            <div class="menu-card-img dessert-1"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Chocolate Fondant</h3>
+                <span class="price">$14</span>
+              </div>
+              <p>Warm dark chocolate fondant, vanilla bean ice cream, hazelnut praline</p>
+              <span class="tag">🔥 Popular</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-card-img dessert-2"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Lemon Tart</h3>
+                <span class="price">$12</span>
+              </div>
+              <p>Sicilian lemon curd, buttery pastry shell, Italian meringue, candied zest</p>
+              <span class="tag">🌿 Light</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-card-img dessert-3"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Crème Brûlée</h3>
+                <span class="price">$13</span>
+              </div>
+              <p>Classic Tahitian vanilla custard, caramelised sugar crust, fresh berries</p>
+              <span class="tag">⭐ Classic</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-card-img dessert-4"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Tiramisu</h3>
+                <span class="price">$13</span>
+              </div>
+              <p>House-made tiramisu, espresso-soaked ladyfingers, mascarpone, cocoa dust</p>
+              <span class="tag">☕ Café Special</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Drinks -->
+      <div class="tab-content" id="tab-drinks">
+        <div class="menu-grid">
+          <div class="menu-card reveal">
+            <div class="menu-card-img drink-1"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Signature Negroni</h3>
+                <span class="price">$16</span>
+              </div>
+              <p>Gin, Campari, sweet vermouth, orange peel, single ice sphere</p>
+              <span class="tag">🍸 Cocktail</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-card-img drink-2"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>La Brasa Espresso</h3>
+                <span class="price">$6</span>
+              </div>
+              <p>Single-origin Ethiopian espresso, smooth crema, served with petit four</p>
+              <span class="tag">☕ Specialty</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-card-img drink-3"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Natural Wine — Glass</h3>
+                <span class="price">$14</span>
+              </div>
+              <p>Rotating selection of biodynamic & natural wines from small producers</p>
+              <span class="tag">🍷 Wine</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-card-img drink-4"></div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3>Seasonal Mocktail</h3>
+                <span class="price">$10</span>
+              </div>
+              <p>Rotating fresh-pressed seasonal fruit, herbs, house-made shrub, sparkling water</p>
+              <span class="tag">🌿 Non-Alcoholic</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section class="experience section">
+    <div class="exp-inner">
+      <div class="exp-text">
+        <span class="section-tag reveal" style="color:#e8c98a">The Experience</span>
+        <h2 class="section-title reveal" style="color:#fff">More than a meal.<br><em>A ritual.</em></h2>
+        <p class="reveal" style="color:rgba(255,255,255,0.7);max-width:480px;line-height:1.8">From the moment you walk in, every detail — the scent of the kitchen, the warmth of the lighting, the sound of clinking glasses — is designed to make you feel at home and far away at once.</p>
+        <a href="#reservation" class="btn-primary reveal" style="margin-top:2rem;display:inline-block">Book Your Experience</a>
+      </div>
+      <div class="exp-cards">
+        <div class="exp-card reveal">
+          <span class="exp-num">01</span>
+          <h4>Private Dining</h4>
+          <p>Exclusive rooms for celebrations, corporate events, and intimate gatherings</p>
+        </div>
+        <div class="exp-card reveal">
+          <span class="exp-num">02</span>
+          <h4>Chef's Table</h4>
+          <p>A 7-course tasting menu served beside the open kitchen — limited seats nightly</p>
+        </div>
+        <div class="exp-card reveal">
+          <span class="exp-num">03</span>
+          <h4>Weekend Brunch</h4>
+          <p>Saturday & Sunday brunch with bottomless coffee, live jazz, and seasonal specials</p>
+        </div>
+        <div class="exp-card reveal">
+          <span class="exp-num">04</span>
+          <h4>Wine Pairing</h4>
+          <p>Sommelier-curated pairings available for any menu — add to any reservation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section id="gallery" class="gallery section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag reveal">Gallery</span>
+        <h2 class="section-title reveal">Every dish,<br><em>a masterpiece</em></h2>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-item g-large gallery-bg-1"></div>
+        <div class="gallery-item gallery-bg-2"></div>
+        <div class="gallery-item gallery-bg-3"></div>
+        <div class="gallery-item gallery-bg-4"></div>
+        <div class="gallery-item g-wide gallery-bg-5"></div>
+        <div class="gallery-item gallery-bg-6"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag reveal">Reviews</span>
+        <h2 class="section-title reveal">Words from our<br><em>guests</em></h2>
+      </div>
+      <div class="testimonial-slider reveal">
+        <div class="testimonial-track" id="testimonialTrack">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"An absolutely transcendent evening. The wood-fired ribeye is unlike anything I've had anywhere in the city. The staff remembered our anniversary — small touches that mean everything."</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">SR</div>
+              <div><strong>Sofia R.</strong><span>Food Critic, The Daily Plate</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"La Brasa has become our family's go-to for every milestone. The ambiance is warm, the food is consistently phenomenal, and the wine list is extraordinary. Pure perfection."</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">JM</div>
+              <div><strong>James M.</strong><span>Regular Guest</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"I had the Chef's Table experience for my birthday — 7 courses that told a genuine story. Chef Reyes came out personally. This is what fine dining should feel like."</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">LP</div>
+              <div><strong>Lena P.</strong><span>Verified Diner</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"The weekend brunch is my weekly ritual now. The truffle scrambled eggs and that single-origin Ethiopian coffee — I genuinely look forward to it every Saturday."</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">AK</div>
+              <div><strong>Alex K.</strong><span>Brunch Regular</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button class="slider-btn" id="prevBtn">←</button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-btn" id="nextBtn">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RESERVATION ========== -->
+  <section id="reservation" class="reservation section">
+    <div class="container">
+      <div class="reservation-inner">
+        <div class="reservation-text">
+          <span class="section-tag reveal">Reservations</span>
+          <h2 class="section-title reveal">Reserve your<br><em>table tonight</em></h2>
+          <p class="reveal">We're open Tuesday through Sunday. Walk-ins welcome based on availability — reservations always recommended for weekends and special events.</p>
+          <div class="hours reveal">
+            <div class="hours-row">
+              <span>Lunch</span>
+              <span>12:00 PM – 3:00 PM</span>
+            </div>
+            <div class="hours-row">
+              <span>Dinner</span>
+              <span>6:00 PM – 11:00 PM</span>
+            </div>
+            <div class="hours-row">
+              <span>Weekend Brunch</span>
+              <span>10:00 AM – 2:00 PM</span>
+            </div>
+            <div class="hours-row closed">
+              <span>Monday</span>
+              <span>Closed</span>
+            </div>
+          </div>
+        </div>
+        <div class="reservation-form reveal">
+          <form id="reservationForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" name="name" id="fname" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email" id="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="+1 (555) 000-0000" />
+              </div>
+              <div class="form-group">
+                <label>Guests</label>
+                <select name="guests" id="guests">
+                  <option value="">Select guests</option>
+                  <option>1 Person</option>
+                  <option>2 People</option>
+                  <option>3 People</option>
+                  <option>4 People</option>
+                  <option>5–6 People</option>
+                  <option>7–10 People</option>
+                  <option>10+ People</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Date</label>
+                <input type="date" name="date" id="rdate" required />
+              </div>
+              <div class="form-group">
+                <label>Time</label>
+                <select name="time" id="rtime">
+                  <option value="">Select time</option>
+                  <option>12:00 PM</option>
+                  <option>12:30 PM</option>
+                  <option>1:00 PM</option>
+                  <option>1:30 PM</option>
+                  <option>6:00 PM</option>
+                  <option>6:30 PM</option>
+                  <option>7:00 PM</option>
+                  <option>7:30 PM</option>
+                  <option>8:00 PM</option>
+                  <option>8:30 PM</option>
+                  <option>9:00 PM</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Special Requests</label>
+              <textarea name="message" id="message" placeholder="Allergies, celebrations, dietary needs..." rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              <span>Confirm Reservation</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+            <div id="form-success" class="form-success" style="display:none">
+              ✓ Your reservation request has been received! We'll confirm via email within 2 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag reveal">Find Us</span>
+        <h2 class="section-title reveal">Come visit<br><em>La Brasa</em></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <strong>Address</strong>
+              <p>42 Ember Lane, Midtown<br>New York, NY 10018</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <strong>Phone</strong>
+              <p><a href="tel:+12125550192">+1 (212) 555-0192</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:hello@labrasa.com">hello@labrasa.com</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">🕐</div>
+            <div>
+              <strong>Hours</strong>
+              <p>Tue–Sun: Lunch 12–3pm<br>Tue–Sun: Dinner 6–11pm</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              Instagram
+            </a>
+            <a href="#" class="social-btn" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              Facebook
+            </a>
+          </div>
+        </div>
+        <div class="contact-map reveal">
+          <div class="map-placeholder">
+            <div class="map-pin">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </div>
+            <p>42 Ember Lane, Midtown, New York</p>
+            <a href="https://maps.google.com" target="_blank" rel="noopener" class="map-link">Open in Google Maps →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">La Brasa</span>
+          <p>Bold flavors. Refined moments.<br>Where every meal becomes a memory.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h5>Navigate</h5>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#reservation">Reserve</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>Experience</h5>
+            <ul>
+              <li><a href="#">Private Dining</a></li>
+              <li><a href="#">Chef's Table</a></li>
+              <li><a href="#">Weekend Brunch</a></li>
+              <li><a href="#">Wine Pairing</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>Visit</h5>
+            <ul>
+              <li><a href="#">42 Ember Lane, NY</a></li>
+              <li><a href="tel:+12125550192">+1 (212) 555-0192</a></li>
+              <li><a href="mailto:hello@labrasa.com">hello@labrasa.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 La Brasa Restaurant & Café. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
